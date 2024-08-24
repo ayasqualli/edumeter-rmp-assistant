@@ -1,277 +1,239 @@
 {
-  "reviews": [
+  "reviews":[
     {
       "professor": "Dr. Jane Smith",
       "review": "Excellent teacher who explains complex concepts clearly. Assignments are challenging but fair.",
       "subject": "Computer Science",
-      "stars": 5,
-      "tags": ["helpful", "clear explanations", "fair grading"]
+      "stars": 5
     },
     {
       "professor": "Prof. John Doe",
       "review": "Knowledgeable but lectures can be hard to follow. Office hours are very helpful.",
       "subject": "Mathematics",
-      "stars": 4,
-      "tags": ["challenging", "office hours recommended", "brilliant"]
+      "stars": 4
     },
     {
       "professor": "Dr. Emily Chen",
       "review": "Passion for chemistry is contagious. Tough course, but she makes it interesting.",
       "subject": "Chemistry",
-      "stars": 4,
-      "tags": ["engaging", "tough but fair", "passionate"]
+      "stars": 4
     },
     {
       "professor": "Prof. Michael Johnson",
       "review": "Brings history to life with storytelling. Exams are straightforward if you attend lectures.",
       "subject": "History",
-      "stars": 5,
-      "tags": ["entertaining", "easy grader", "great storyteller"]
+      "stars": 5
     },
     {
       "professor": "Dr. Sarah Lee",
       "review": "At the cutting edge of AI research. Course is demanding but rewarding.",
       "subject": "Artificial Intelligence",
-      "stars": 4,
-      "tags": ["innovative", "challenging", "research-oriented"]
+      "stars": 4
     },
     {
       "professor": "Prof. Robert Brown",
       "review": "Lectures can be dry, but the content is interesting. Easy course overall.",
       "subject": "Psychology",
-      "stars": 3,
-      "tags": ["straightforward", "easy A", "dry lectures"]
+      "stars": 3
     },
     {
       "professor": "Dr. Lisa Wang",
       "review": "Brilliant and makes quantum physics almost understandable. Extremely challenging but worth it.",
       "subject": "Physics",
-      "stars": 5,
-      "tags": ["brilliant", "challenging", "mind-blowing"]
+      "stars": 5
     },
     {
       "professor": "Prof. David Miller",
       "review": "Provides great feedback and encourages creativity. Enjoyable and insightful course.",
       "subject": "Creative Writing",
-      "stars": 5,
-      "tags": ["inspiring", "constructive feedback", "creative"]
+      "stars": 5
     },
     {
       "professor": "Dr. Karen White",
       "review": "Passionate about the environment. Interesting field trips and hands-on projects.",
       "subject": "Environmental Science",
-      "stars": 4,
-      "tags": ["passionate", "hands-on", "field trips"]
+      "stars": 4
     },
     {
       "professor": "Prof. Thomas Green",
       "review": "Knows his stuff but can be intimidating. Lectures are fast-paced, come prepared.",
       "subject": "Economics",
-      "stars": 4,
-      "tags": ["knowledgeable", "fast-paced", "intimidating"]
+      "stars": 4
     },
     {
       "professor": "Dr. Rachel Adams",
       "review": "Makes anatomy fascinating. Lots of memorization required, but her mnemonics help.",
       "subject": "Anatomy",
-      "stars": 5,
-      "tags": ["engaging", "memorization heavy", "helpful mnemonics"]
+      "stars": 5
     },
     {
       "professor": "Prof. James Wilson",
       "review": "Challenges students to think critically about the law. Fascinating discussions in class.",
       "subject": "Law",
-      "stars": 4,
-      "tags": ["thought-provoking", "challenging", "great discussions"]
+      "stars": 4
     },
     {
       "professor": "Dr. Maria Garcia",
       "review": "Love for literature is infectious. Brings Spanish classics to life.",
       "subject": "Spanish Literature",
-      "stars": 4,
-      "tags": ["passionate", "engaging", "culturally rich"]
+      "stars": 4
     },
     {
       "professor": "Prof. Steven Taylor",
       "review": "Explains complex concepts well, but exams are tough. Attend all lectures and do all homework.",
       "subject": "Statistics",
-      "stars": 4,
-      "tags": ["clear explanations", "tough exams", "homework heavy"]
+      "stars": 4
     },
     {
       "professor": "Dr. Elizabeth Reed",
       "review": "Excellent teacher. Lab work is challenging but very educational.",
       "subject": "Biology",
-      "stars": 4,
-      "tags": ["good teacher", "challenging labs", "informative"]
+      "stars": 4
     },
     {
       "professor": "Prof. Andrew Clark",
       "review": "Passion for cinema is contagious. Interesting discussions and fun projects.",
       "subject": "Film Studies",
-      "stars": 5,
-      "tags": ["passionate", "interesting projects", "engaging discussions"]
+      "stars": 5
     },
     {
       "professor": "Dr. Olivia Martinez",
       "review": "Brilliant and explains complex brain functions clearly. Challenging but fascinating course.",
       "subject": "Neuroscience",
-      "stars": 5,
-      "tags": ["brilliant", "clear explanations", "challenging"]
+      "stars": 5
     },
     {
       "professor": "Prof. Daniel Lee",
       "review": "Brings real-world experience to the classroom. Engaging lectures and thought-provoking assignments.",
       "subject": "International Relations",
-      "stars": 4,
-      "tags": ["real-world experience", "engaging", "thought-provoking"]
+      "stars": 4
     },
     {
       "professor": "Dr. Sophie Brown",
       "review": "Makes the cosmos understandable. Extremely challenging material, but her enthusiasm helps.",
       "subject": "Astrophysics",
-      "stars": 5,
-      "tags": ["enthusiastic", "challenging", "mind-expanding"]
+      "stars": 5
     },
     {
       "professor": "Prof. Christopher Wright",
       "review": "Great industry insights. Group projects can be hit or miss depending on your team.",
       "subject": "Marketing",
-      "stars": 4,
-      "tags": ["industry insights", "group projects", "practical"]
+      "stars": 4
     },
     {
       "professor": "Dr. Natalie Kim",
       "review": "Extremely knowledgeable and approachable. Her office hours are invaluable.",
       "subject": "Genetics",
-      "stars": 4,
-      "tags": ["knowledgeable", "approachable", "helpful office hours"]
+      "stars": 4
     },
     {
       "professor": "Prof. Eric Johnson",
       "review": "Leads fascinating discussions. Be prepared to have your assumptions challenged.",
       "subject": "Philosophy",
-      "stars": 4,
-      "tags": ["thought-provoking", "challenging", "great discussions"]
+      "stars": 4
     },
     {
       "professor": "Dr. Amanda Nelson",
       "review": "Passionate about immunology. Complex subject, but she makes it accessible.",
       "subject": "Immunology",
-      "stars": 4,
-      "tags": ["passionate", "complex", "accessible"]
+      "stars": 4
     },
     {
       "professor": "Prof. Mark Thompson",
       "review": "Lectures are like attending a fascinating art show. Easy grader, but you'll want to do the work.",
       "subject": "Art History",
-      "stars": 5,
-      "tags": ["engaging", "easy grader", "interesting lectures"]
+      "stars": 5
     },
     {
       "professor": "Dr. Laura Chen",
       "review": "Brilliant but expects a lot from students. Tough course, but you'll learn a ton.",
       "subject": "Biochemistry",
-      "stars": 4,
-      "tags": ["brilliant", "demanding", "comprehensive"]
+      "stars": 4
     },
     {
       "professor": "Prof. Richard Davis",
       "review": "Encourages critical thinking. Lectures can be dense, but discussions are enlightening.",
       "subject": "Political Science",
-      "stars": 4,
-      "tags": ["thought-provoking", "dense material", "great discussions"]
+      "stars": 4
     },
     {
       "professor": "Dr. Emma Wilson",
       "review": "Makes complex theories understandable. Interesting experiments and interactive lectures.",
       "subject": "Psychology",
-      "stars": 4,
-      "tags": ["clear explanations", "interactive", "interesting experiments"]
+      "stars": 4
     },
     {
       "professor": "Prof. Alex Turner",
       "review": "Knowledgeable but pacing can be fast. Great preparation for coding interviews.",
       "subject": "Computer Science",
-      "stars": 4,
-      "tags": ["fast-paced", "practical", "challenging"]
+      "stars": 4
     },
     {
       "professor": "Dr. Samantha Lee",
       "review": "Enthusiasm for microbes is contagious. Lab work is extensive but very educational.",
       "subject": "Microbiology",
-      "stars": 4,
-      "tags": ["enthusiastic", "hands-on labs", "informative"]
+      "stars": 4
     },
     {
       "professor": "Prof. Benjamin Harris",
       "review": "Knows accounting inside out. Can be dry, but his real-world examples help.",
       "subject": "Accounting",
-      "stars": 4,
-      "tags": ["knowledgeable", "practical examples", "somewhat dry"]
+      "stars": 4
     },
     {
       "professor": "Dr. Jessica Martinez",
       "review": "Field trips make ecology come alive. Engaging lecturer and fair grader.",
       "subject": "Ecology",
-      "stars": 5,
-      "tags": ["field trips", "engaging", "fair grader"]
+      "stars": 5
     },
     {
       "professor": "Prof. William Chen",
       "review": "Explains abstract concepts well. Homework is challenging but prepares you for exams.",
       "subject": "Mathematics",
-      "stars": 4,
-      "tags": ["clear explanations", "challenging homework", "fair exams"]
+      "stars": 4
     },
     {
       "professor": "Dr. Michelle Kim",
       "review": "Engaging lecturer. Course content is fascinating and assessments are fair.",
       "subject": "Psychology",
-      "stars": 5,
-      "tags": ["engaging", "interesting content", "fair assessments"]
+      "stars": 5
     },
     {
       "professor": "Prof. Jonathan Green",
       "review": "Runs a tight ship in the lab. Demanding course, but you'll learn proper lab techniques.",
       "subject": "Chemistry",
-      "stars": 4,
-      "tags": ["strict", "demanding", "educational"]
+      "stars": 4
     },
     {
       "professor": "Dr. Rachel Foster",
       "review": "Passion for literature is inspiring. Insightful discussions and creative assignments.",
       "subject": "Literature",
-      "stars": 5,
-      "tags": ["passionate", "insightful", "creative assignments"]
+      "stars": 5
     },
     {
       "professor": "Prof. David Wong",
       "review": "Extensive industry experience. Practical course with challenging projects.",
       "subject": "Computer Science",
-      "stars": 4,
-      "tags": ["industry experience", "practical", "project-based"]
+      "stars": 4
     },
     {
       "professor": "Dr. Sarah Johnson",
       "review": "Knowledgeable but can be intimidating. Course is tough but comprehensive.",
       "subject": "Chemistry",
-      "stars": 4,
-      "tags": ["knowledgeable", "intimidating", "comprehensive"]
+      "stars": 4
     },
     {
       "professor": "Prof. Michael Davis",
       "review": "Captivating storyteller. Makes history come alive with interesting anecdotes.",
       "subject": "History",
-      "stars": 4,
-      "tags": ["engaging", "great storyteller", "interesting anecdotes"]
+      "stars": 4
     },
     {
       "professor": "Dr. Emily Roberts",
       "review": "Explains complex cellular processes clearly. Challenging exams but fair grader.",
       "subject": "Biology",
-      "stars": 4,
-      "tags": ["clear explanations", "challenging exams", "fair grader"]
+      "stars": 4
     }
   ]
+
 }

@@ -13,7 +13,7 @@ export default function SignInPage() {
   useEffect(() => {
     console.log("isSignedIn:", isSignedIn);
     if (isSignedIn === true) {
-      router.push('/api/chat'); // Redirect to the chat page after successful sign-in
+      router.push('/chat'); // Redirect to the chat page after successful sign-in
     }
   }, [isSignedIn]); // Only run when isSignedIn changes
 

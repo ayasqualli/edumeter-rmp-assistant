@@ -2,7 +2,7 @@
 import { Box, IconButton, Stack, TextField, Typography } from "@mui/material";
 import LogoutIcon from '@mui/icons-material/Logout'; // Import the Logout icon
 import SendIcon from '@mui/icons-material/Send'; // Import the Send icon
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import React from "react";
 import { useRouter } from "next/navigation";
 import { useAuth, signOut } from "@clerk/nextjs";

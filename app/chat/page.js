@@ -2,10 +2,10 @@
 import { Box, IconButton, Stack, TextField, Typography } from "@mui/material";
 import LogoutIcon from '@mui/icons-material/Logout'; // Import the Logout icon
 import SendIcon from '@mui/icons-material/Send'; // Import the Send icon
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import React from "react";
 import { useRouter } from "next/navigation";
-import { useAuth, signOut } from "@clerk/nextjs";
+import { useAuth } from "@clerk/nextjs";
 
 
 export default function ChatPage() {
@@ -17,14 +17,12 @@ export default function ChatPage() {
   ]);
   const [message, setMessage] = useState("");
   const router = useRouter();
-  const { isSignedIn } = useAuth();
+  const { isSignedIn, signOut } = useAuth();
 
-  useEffect(() => {
-    if (!isSignedIn) {
-      // User is logged out, redirect to the login page
-      router.push('/'); 
-    }
-  }, [isSignedIn, router]);
+  if (!isSignedIn) {
+    router.push("/");
+  }
+
 
   const sendMessage = async () => {
     if (!message.trim()) return;
@@ -74,13 +72,8 @@ export default function ChatPage() {
   };
 
   const handleLogout = async () => {
-    try {
-      await signOut(); // Sign out from Clerk first
-      router.push('/'); // Then redirect
-    } catch (error) {
-      console.error("Error signing out:", error);
-      // Handle the error appropriately, e.g., show an error message to the user
-    }
+    await signOut();
+    router.push("/");
   };
   
 

@@ -5,6 +5,8 @@ import SendIcon from '@mui/icons-material/Send'; // Import the Send icon
 import { useState } from "react";
 import React from "react";
 import { useRouter } from "next/navigation";
+import { useAuth, signOut } from "@clerk/nextjs";
+
 
 export default function ChatPage() {
   const [messages, setMessages] = useState([
@@ -63,9 +65,16 @@ export default function ChatPage() {
     }
   };
 
-  const handleLogout = () => {
-    router.push('/'); // Redirect to the homepage or login page after logout
+  const handleLogout = async () => {
+    try {
+      await signOut(); // Sign out from Clerk first
+      router.push('/'); // Then redirect
+    } catch (error) {
+      console.error("Error signing out:", error);
+      // Handle the error appropriately, e.g., show an error message to the user
+    }
   };
+  
 
   return (
     <Box

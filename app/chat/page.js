@@ -17,6 +17,14 @@ export default function ChatPage() {
   ]);
   const [message, setMessage] = useState("");
   const router = useRouter();
+  const { isSignedIn } = useAuth();
+
+  useEffect(() => {
+    if (!isSignedIn) {
+      // User is logged out, redirect to the login page
+      router.push('/'); 
+    }
+  }, [isSignedIn, router]);
 
   const sendMessage = async () => {
     if (!message.trim()) return;
